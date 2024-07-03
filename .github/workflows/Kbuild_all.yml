@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  Build OPPO R11 Kernel:
+  OPPO-R11:
     uses: ./.github/workflows/Kbuild_16051.yml
-  Build OPPO R11s Kernel:
+  OPPO-R11s:
     uses: ./.github/workflows/Kbuild_17011.yml
-  Build OPPO R15x/K1 Kernel:
+  OPPO-R15x/K1:
     uses: ./.github/workflows/Kbuild_18005.yml
