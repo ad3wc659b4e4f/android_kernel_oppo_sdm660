@@ -8,5 +8,5 @@ jobs:
     uses: ./.github/workflows/Kbuild_16051.yml
   OPPO-R11s:
     uses: ./.github/workflows/Kbuild_17011.yml
-  OPPO-R15x/K1:
+  OPPO-R15x-K1:
     uses: ./.github/workflows/Kbuild_18005.yml
